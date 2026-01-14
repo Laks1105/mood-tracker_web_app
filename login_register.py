@@ -147,7 +147,7 @@ def mood_selector():
 
     return render_template('Mood_selection.html', username=name)
 
-#(THE FUNCTIONS FOR EACH MOODS - it will be linked to HTML)
+# === THE FUNCTIONS FOR EACH MOODS ===
 #Happy Mood Selection
 @app.route('/mood/happy')
 def happy_mood_opt():
